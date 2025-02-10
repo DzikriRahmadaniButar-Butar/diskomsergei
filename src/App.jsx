@@ -6,6 +6,7 @@ import NotFound from "./pages/NotFound";
 import Profile from "./pages/Profile";
 import "./App.css";
 import "./index.css";
+import logo from "./assets/diskominfosergei.png";
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +33,7 @@ function App() {
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="text-xl font-bold flex items-center">
-            <img src="/diskominfosergei.png" alt="Logo" className="w-auto h-10 mr-2" />
+            <img src={logo} alt="Logo" className="w-auto h-10 mr-2" />
           </Link>
 
           {/* Navigasi */}
