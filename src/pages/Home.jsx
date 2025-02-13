@@ -8,21 +8,6 @@ import Slideshow from '../components/Slideshow';
 function Home() {
   return (
     <>
-    <section className='bg-slate-100 py-6 md:py-8 xl:py-12 md:px-4 xl:px-16'>
-        <div className='container mx-auto px-6 2xl:px-0 xl:max-w-7xl py-8'>
-          <h2 className='text-blue-gray-800 text-lg font-bold font-roboto mb-8'>Video Profil</h2>
-          <div className='flex justify-center items-center'>
-            <iframe
-              width={"100%"}
-              height={"100%"}
-              src="https://www.youtube.com/embed/Qw-r5FeDs9Q?si=ELT5j81X4CPUCv7_"
-              frameBorder="0"
-              className='rounded-xl w-full lg:w-[80%] h-[200px] sm:h-[450px] xl:h-[550px]'
-            ></iframe>
-          </div>
-        </div>
-      </section>
-      
     <div className='py-10'></div>
       {/* slideshow */}
       <Slideshow />
