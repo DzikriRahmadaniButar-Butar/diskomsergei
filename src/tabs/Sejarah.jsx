@@ -2,8 +2,9 @@
 function Sejarah() {
     return (
       <>
-        <h1 className="font-bold font-Inter text-blue-700 text-[28px] md:text-4xl text-center md:text-left leading-9 md:leading-[56px] mb-8">Sejarah</h1>
-        <div className="prose prose-slate lg:prose-lg max-w-none mx-0 md:mx-4">
+      <div className="prose prose-slate lg:prose-lg ">
+        <h1 className="font-bold text-blue-700 text-center md:text-4xl md:text-left leading-9 md:leading-[56px] md:mx-4">Sejarah</h1>
+        <div className="max-w-none mx-0 md:mx-4">
           <div className="mb-6">
             <img src="src/assets/kantorcrop.png" alt="Diskominfo Office" className="rounded-lg w-full md:w-auto" />
           </div>
@@ -11,7 +12,7 @@ function Sejarah() {
             <p>
               Dinas Komunikasi dan Informatika (Diskominfo) Kabupaten Serdang Bedagai merupakan instansi pemerintah yang berperan penting dalam penyebaran informasi publik yang transparan serta memfasilitasi layanan komunikasi dan informatika di wilayah tersebut. Pembentukan Diskominfo Serdang Bedagai didasarkan pada beberapa regulasi yang menjadi dasar hukum operasionalnya.
             </p>
-            <h3>
+            <h3 className="text-blue-700">
               Dasar Pembentukan:
             </h3>
             <ol>
@@ -37,7 +38,7 @@ function Sejarah() {
                 Peraturan Bupati Serdang Bedagai Nomor 15 Tahun 2024 tentang Penyelenggaraan Statistik Sektoral di Lingkungan Kabupaten Serdang Bedagai: Peraturan ini mengatur penyelenggaraan statistik sektoral di lingkungan pemerintah daerah.
               </li>
             </ol>
-            <h3>Tujuan dan Sasaran Jangka Menengah:</h3>
+            <h3 className="text-blue-700">Tujuan dan Sasaran Jangka Menengah:</h3>
             <ol>
               <li>
                 Meningkatkan Pelayanan Informasi dan Pengaduan Masyarakat:
@@ -66,24 +67,25 @@ function Sejarah() {
             Dengan dasar hukum yang kuat dan tujuan strategis yang jelas, Diskominfo Kabupaten Serdang Bedagai berkomitmen untuk meningkatkan kualitas layanan informasi dan komunikasi, serta mendukung pembangunan infrastruktur teknologi informatika yang optimal guna mewujudkan pelayanan publik yang lebih baik.
           </div>
           <div className="bg-blue-500 rounded-xl mt-8 p-8">
-            <h2 className="font-inter text-[24px] font-bold text-white leading-9 text-center">Visi Misi Pemerintahan Kabupaten Serdang Bedagai</h2>
-            <h3 className="font-inter font-bold text-base text-blue-50 text-center">Periode 2023-Sekarang</h3>
+            <h2 className="text-white leading-9 text-center">Visi Misi Pemerintahan Kabupaten Serdang Bedagai</h2>
+            <h3 className="text-blue-50 text-center">Periode 2023-Sekarang</h3>
             <div className="bg-blue-600 rounded-xl mt-8 p-3">
-              <div className="text-blue-100 text-center font-lato font-bold text-base leading-9">Visi</div>
-              <div className="text-white text-center font-lato font-bold text-base">"Mewujudkan Kabupaten Sergai yang Mandiri, Sejahtera dan Religius di tahun 2024"
+              <div className="text-blue-100 text-center leading-9">Visi</div>
+              <div className="text-white text-center">"Mewujudkan Kabupaten Sergai yang Mandiri, Sejahtera dan Religius di tahun 2024"
               </div>
             </div>
             <div className="bg-blue-700 rounded-xl mt-3 p-3">
               <div className="text-blue-100 text-center font-lato font-bold text-base leading-9">Misi</div>
               <ul className="flex flex-col gap-4 mt-3 pl-3">
                 <li className="inline-flex gap-6">
-                  <div className="flex justify-center items-center h-[32px] min-w-[32px] rounded-full bg-blue-600 text-white font-lato font-bold text-sm">1</div>
+                  <div className="flex justify-center h-[32px] min-w-[32px] rounded-full bg-blue-600 text-white">1</div>
                   <div className="flex-shrink">
                     <div className="text-white font-lato font-bold text-base">Membentuk Manusia Pancasila yang Bertaqwa</div>
                     <div className="text-blue-100 font-lato text-sm">melalui peningkatan peran masjid dan tempat ibadah sebagai pusat peradaban, dengan sasaran misi yaitu pesantren juara, masjid juara, dan ulama juara"</div>
                   </div>
                 </li>
-                <li className="inline-flex gap-6"><div className="flex justify-center items-center h-[32px] min-w-[32px] rounded-full bg-blue-600 text-white font-lato font-bold text-sm">2</div>
+                <li className="inline-flex gap-6">
+                  <div className="flex justify-center h-[32px] min-w-[32px] rounded-full bg-blue-600 text-white">2</div>
                   <div className="flex-shrink"><div className="text-white font-lato font-bold text-base">
                     Melahirkan manusia yang berbudaya, berkualitas, bahagia dan produktif
                   </div> <div className="text-blue-100 font-lato text-sm">
@@ -91,7 +93,7 @@ function Sejarah() {
                   </div></div>
                 </li>
                 <li className="inline-flex gap-6">
-                  <div className="flex justify-center items-center h-[32px] min-w-[32px] rounded-full bg-blue-600 text-white font-lato font-bold text-sm">3</div>
+                  <div className="flex justify-center h-[32px] min-w-[32px] rounded-full bg-blue-600 text-white">3</div>
                   <div className="flex-shrink"><div className="text-white font-lato font-bold text-base">
                     Mempercepat pertumbuhan dan pemerataan pembangunan berbasis lingkungan dan tata ruang yang berkelanjutan
                   </div> <div className="text-blue-100 font-lato text-sm">
@@ -99,14 +101,14 @@ function Sejarah() {
                   </div></div>
                 </li>
                 <li className="inline-flex gap-6">
-                  <div className="flex justify-center items-center h-[32px] min-w-[32px] rounded-full bg-blue-600 text-white font-lato font-bold text-sm">4</div>
+                  <div className="flex justify-center h-[32px] min-w-[32px] rounded-full bg-blue-600 text-white">4</div>
                   <div className="flex-shrink">
                     <div className="text-white font-lato font-bold text-base">Meningkatkan produktivitas dan daya saing ekonomi umat yang sejahtera dan adil</div>
                     <div className="text-blue-100 font-lato text-sm">dengan sasaran misi yaitu nelayan juara, pariwisata juara, lingkungan juara, kelola sampah juara, tanggap bencana juara, ekonomi kreatif juara, buruh juara, industri juara, pasar juara, petani juara, umat juara, umkm juara, dan wirausaha juara.</div>
                   </div>
                 </li>
                 <li className="inline-flex gap-6">
-                  <div className="flex justify-center items-center h-[32px] min-w-[32px] rounded-full bg-blue-600 text-white font-lato font-bold text-sm">5</div>
+                  <div className="flex justify-center h-[32px] min-w-[32px] rounded-full bg-blue-600 text-white">5</div>
                   <div className="flex-shrink">
                     <div className="text-white font-lato font-bold text-base">Mewujudkan tata kelola pemerintahan yang inovatif dan kepemimpinan yang kolaboratif antara pemerintahan pusat, provinsi, dan kabupaten/kota</div>
                     <div className="text-blue-100 font-lato text-sm">dengan sasaran misi yaitu birokrasi juara, APBD juara, ASN juara, dan BUMD juara.</div>
@@ -116,6 +118,7 @@ function Sejarah() {
             </div>
           </div>
         </div>
+      </div>
       </>
     )
   }

@@ -27,7 +27,7 @@ function App() {
       {/* Navbar */}
       <nav
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-          isScrolled ? "bg-lime-300/30 backdrop-blur-md shadow-md" : "bg-lime-500 "
+          isScrolled ? "backdrop-blur-md shadow-md" : "bg-white "
         }`}
       >
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
@@ -37,9 +37,9 @@ function App() {
           </Link>
 
           {/* Navigasi */}
-          <ul className="font-bold text-white flex gap-6">
+          <ul className="text-black flex gap-6">
             <li>
-              <Link to="/profile" className="hover:text-blue-700 transition">
+              <Link to="/profile" className=" hover:text-blue-700 transition">
                 Profile
               </Link>
             </li>
