@@ -2,9 +2,9 @@
 function Sejarah() {
     return (
       <>
-      <div className="prose prose-slate lg:prose-lg ">
+      <div className="prose prose-slate lg:prose-lg max-w-none mx-0 md:mx-4">
         <h1 className="font-bold text-blue-700 text-center md:text-4xl md:text-left leading-9 md:leading-[56px] md:mx-4">Sejarah</h1>
-        <div className="max-w-none mx-0 md:mx-4">
+        <div>
           <div className="mb-6">
             <img src="src/assets/kantorcrop.png" alt="Diskominfo Office" className="rounded-lg w-full md:w-auto" />
           </div>
