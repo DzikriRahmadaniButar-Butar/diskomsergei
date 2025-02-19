@@ -7,7 +7,7 @@ import ProfilPemimpin from '../tabs/ProfilPimpinan';
 import Swiper from 'swiper';
 import 'swiper/css'; // Import Swiper CSS
 
-function Profile() {
+function Profil() {
   const [searchParams, setSearchParams] = useSearchParams();
   const tabParam = searchParams.get('tab') || 'sejarah';
   const [activeTab, setActiveTab] = useState(tabParam);
@@ -49,7 +49,7 @@ function Profile() {
           <section className='breadcrumb mb-6'>
             <nav className='hidden md:inline-flex'>
               <a href="/" className='breadcrumb__item text-blue-50'>Beranda</a>
-              <a href="/profile" className='breadcrumb__item font-bold text-gray-50'>Profil</a>
+              <a href="/profil" className='breadcrumb__item font-bold text-gray-50'>Profil</a>
             </nav>
             <h1 className='font-bold text-3xl text-white mb-2'>Profil Diskominfo Provinsi Jawa Barat</h1>
             <h2 className='text-sm text-white sm:col-span-4'>Selayang pandang Diskominfo Jabar</h2>
@@ -123,4 +123,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+export default Profil;
