@@ -1,16 +1,11 @@
+import ButtonLink from "../../../components/ButtonLink";
+
 function TugasDanFungsi() {
   return (
       <>
           <div className="prose lg:prose-lg prose-slate max-w-none mx-0 md:mx-4">
               <h2 className="text-xl font-bold text-blue-700">Tugas dan Fungsi</h2>
-              <div className="w-full p-6 rounded-[18px] bg-blue-50 flex flex-col items-center justify-between gap-2 md:flex-row">
-                  <p className="flex-grow text-blue-gray-700">Formulir Permintaan Informasi PPID</p>
-                  <a href="/ppid/formulir-informasi-ppid">
-                      <button className="px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition">
-                          Ajukan
-                      </button>
-                  </a>
-              </div>
+              <ButtonLink title="Formulir Permintaan Informasi PPID" link="/formulir" showIcon={false} buttonText="Ajukan" />
               <div className="bg-gray-50 rounded-lg p-3 flex flex-col gap-3">
                 <h3 className="font-bold text-sm text-blue-gray-700">Tugas</h3>
                 <p>Menyediakan, menyimpan, mendokumentasikan, dan mengamankan informasi.</p>

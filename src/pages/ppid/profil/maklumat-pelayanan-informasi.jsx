@@ -1,9 +1,7 @@
-import maklumatImage from '../../../assets/maklumatdiskominfo.webp';
-
 function MaklumatPelayananInformasi() {
     return (
     <>
-      <div className="prose lg:prose-lg prose-slate max-w-none mx-0 md:mx-4">
+      <div className="prose lg:prose-lg prose-slate max-w-none mx-0">
        <img src={maklumatImage} alt="Maklumat Diskominfo" />
       </div>
     </>
